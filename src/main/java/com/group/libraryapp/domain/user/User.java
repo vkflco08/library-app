@@ -1,8 +1,11 @@
 package com.group.libraryapp.domain.user;
 
 import com.group.libraryapp.domain.user.loanHistory.UserLoanHistory;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
